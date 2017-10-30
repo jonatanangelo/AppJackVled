@@ -2,27 +2,41 @@
 
 var Cervezas = function(){
 
-	this.lista = ["jackvled","gomes","kantor","ooul"];
-	this.ac = 1;
+	var ac = 0;
 
+	var b = $("#cervezas .slider .botella");
 
+	b.eq(0).css("z-index",20);
+	b.eq(1).css("z-index",10);
+	b.eq(3).css("z-index",10);
+
+	b.eq(3).transition({x:-290,scale:0.9},0);
+	b.eq(1).transition({x:290,scale:0.9},0);
 
 	$("#cervezas .slider").on("swipeleft",function(){
-		cervezas.ac++;
-		if(cervezas.ac==5) cervezas.ac=1;
+		b.eq(ac).transition({x:-290,scale:0.9},300);
+		var sig = ac+1;
+		if(sig==4) sig=0;
+		//console.log("principal"+sig);
+		b.eq(sig).transition({x:0,scale:1},300);
+		var ant = ac-1;
+		if(ant==-1) ant=3;
+		//console.log("se va"+ant);
+		b.eq(ant).transition({opacity:0},300);
+		var nuevo = ac+2;
+		if(nuevo==4) nuevo=0;
+		if(nuevo==5) nuevo=1;
+		//console.log("derecha"+nuevo);
+		b.eq(nuevo).transition({x:290,scale:0.9},0);
+		b.eq(nuevo).transition({opacity:1},600);
 
-		var nuevo = cervezas.ac+1;
-		if(nuevo==5) nuevo = 1;
+		
+		ac++;
+
+		if(ac==4) ac=0;
 
 
-
-		$("#cervezas .slider .botella.izq").transition({opacity:0},300);
-		$("#cervezas .slider .botella.cen").removeClass("cen").addClass("izq");
-		$("#cervezas .slider .botella.der").removeClass("der").addClass("cen");
-
-		var divnuevo = $('<div class="botella der" style="opacity:0;background-image: url(img/cervezas/'+cervezas.lista[nuevo-1]+'/cerveza.png)"></div>');
-		$("#cervezas .slider").append(divnuevo);
-		divnuevo.animate({opacity:1},200);
+		//console.log(ac);
 
 	});
 
