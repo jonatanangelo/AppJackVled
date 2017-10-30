@@ -3,7 +3,7 @@
 	overflow: hidden;
 }
 #cervezas .slider{
-	
+	padding-top: 50px;
 }
 #cervezas .slider .botella{
 	width: calc(1024px / 3);
@@ -14,5 +14,7 @@
 	height: 540px;
 	margin:auto;
 }
-
+#cervezas .slider .slick-active{
+	transform:scale(0.8);
+}
 
