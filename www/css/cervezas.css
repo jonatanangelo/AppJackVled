@@ -3,17 +3,10 @@
 	overflow: hidden;
 }
 #cervezas .slider{
-	width: calc(1024px * 4);
-	height: 100%;
-	position: relative;
-	overflow: hidden;
+	
 }
 #cervezas .slider .botella{
-	height: 100%;
 	width: calc(1024px / 3);
-	
-	
-	float: left;
 
 }
 #cervezas .slider .botella img{

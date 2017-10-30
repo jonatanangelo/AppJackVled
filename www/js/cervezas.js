@@ -13,9 +13,17 @@ var Cervezas = function(){
 	//b.eq(3).transition({x:-290,scale:0.9},0);
 	//b.eq(1).transition({x:290,scale:0.9},0);
 
-	$("#cervezas .slider").on("swipeleft",function(){
-		ac++;
-		$("#cervezas .slider").transition({x:-341.3*ac},400);
+	$('#slider').slick({
+	  centerMode: false,
+	  centerPadding: '0px',
+	  slidesToShow: 3,
+	 
+	     
+	        arrows: false,
+	        variableWidth:true
+	       
+	     
+	   
 	});
 
 	/*$("#cervezas .slider").on("swipeleft",function(){
