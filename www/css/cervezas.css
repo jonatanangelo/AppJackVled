@@ -25,5 +25,5 @@
 }
 #cervezas .slider .botella.izq, #cervezas .slider .botella.der{
 	background-size: auto 512px;
-	filter: blur(2px);
+	/*filter: blur(2px);*/
 }
