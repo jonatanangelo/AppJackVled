@@ -2,43 +2,23 @@
 	background: #fff;
 }
 #cervezas .slider{
-	width: 100%;
+	width: calc(1024px * 4);
 	height: 100%;
 	position: relative;
 	overflow: hidden;
 }
 #cervezas .slider .botella{
 	height: 100%;
-	width: 100%;
+	width: calc(1024px / 3);
 	
-	background-size: auto 560px;
-	background-repeat: no-repeat;
-	background-position: 80px 54px;
-	position: absolute;
-}
+	
+	float: left;
 
-#cervezas .slider .botella:nth-child(1){
-	background-image: url(../img/cervezas/jackvled/cerveza.png);
 }
-#cervezas .slider .botella:nth-child(2){
-	background-image: url(../img/cervezas/gomes/cerveza.png);
-}
-#cervezas .slider .botella:nth-child(3){
-	background-image: url(../img/cervezas/kantor/cerveza.png);
-	opacity: 0;
-}
-#cervezas .slider .botella:nth-child(4){
-	background-image: url(../img/cervezas/ooul/cerveza.png);
+#cervezas .slider .botella img{
+	width: auto;
+	height: 540px;
+	margin:auto;
 }
 
 
-#cervezas .slider .botella.izq{
-	background-position: -210px 74px;
-}
-#cervezas .slider .botella.der{
-	background-position:440px 74px;
-}
-#cervezas .slider .botella.izq, #cervezas .slider .botella.der{
-	background-size: auto 512px;
-	/*filter: blur(2px);*/
-}

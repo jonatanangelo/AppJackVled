@@ -6,14 +6,19 @@ var Cervezas = function(){
 
 	var b = $("#cervezas .slider .botella");
 
-	b.eq(0).css("z-index",20);
-	b.eq(1).css("z-index",10);
-	b.eq(3).css("z-index",10);
+	//b.eq(0).css("z-index",20);
+	//b.eq(1).css("z-index",10);
+	//b.eq(3).css("z-index",10);
 
-	b.eq(3).transition({x:-290,scale:0.9},0);
-	b.eq(1).transition({x:290,scale:0.9},0);
+	//b.eq(3).transition({x:-290,scale:0.9},0);
+	//b.eq(1).transition({x:290,scale:0.9},0);
 
 	$("#cervezas .slider").on("swipeleft",function(){
+		ac++;
+		$("#cervezas .slider").transition({x:-341.3*ac},400);
+	});
+
+	/*$("#cervezas .slider").on("swipeleft",function(){
 		b.eq(ac).transition({x:-290,scale:0.9},300);
 		var sig = ac+1;
 		if(sig==4) sig=0;
@@ -66,7 +71,7 @@ var Cervezas = function(){
 		if(ac==-1) ac=3;
 
 	});
-
+	*/
 
 	this.mostrar = function(){
 		actual = "cervezas";
