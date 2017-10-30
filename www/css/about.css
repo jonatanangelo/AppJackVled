@@ -12,6 +12,7 @@
 	background-size: 87px 87px, cover;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center, center;
+	z-index: 10;
 }
 #about .video .preview:active, #about .video .preview.over{
 	background-size: 80px 80px, cover;
