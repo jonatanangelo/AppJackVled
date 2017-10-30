@@ -1,0 +1,29 @@
+#cervezas{
+	background: #fff;
+}
+#cervezas .slider{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#cervezas .slider .botella{
+	height: 100%;
+	width: 100%;
+	
+	background-size: auto 560px;
+	background-repeat: no-repeat;
+	background-position: 80px 54px;
+	position: absolute;
+	transition:all 0.5s;
+}
+#cervezas .slider .botella.izq{
+	background-position: -210px 74px;
+}
+#cervezas .slider .botella.der{
+	background-position:440px 74px;
+}
+#cervezas .slider .botella.izq, #cervezas .slider .botella.der{
+	background-size: auto 512px;
+	filter: blur(2px);
+}

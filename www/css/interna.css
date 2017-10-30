@@ -1,0 +1,93 @@
+#interna{
+	
+	background: #fff;
+}
+
+#interna .menu{
+	display: table;
+	margin: auto;
+	height: 84px;
+}
+#interna .menu .item{
+	float: left;
+	width: 84px;
+	height: 84px;
+}
+#interna .menu .item .ico{
+	height: 41px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto 82px;
+}
+#interna .menu .item.dato .ico{
+	background-image: url(../img/ico1.jpg);
+}
+#interna .menu .item.probar .ico{
+	background-image: url(../img/ico2.jpg);
+}
+#interna .menu .item.botella .ico{
+	background-image: url(../img/ico3.jpg);
+}
+#interna .menu .item.maridaje .ico{
+	background-image: url(../img/ico4.jpg);
+}
+
+#interna .menu .item.ac .ico{
+	background-position: bottom center;
+}
+
+#interna .menu .item .nombre{
+	height: 33px;
+	text-align: center;
+	font-family: 'playfair_displayregular';
+	font-size: 11px;
+	line-height: 12px;
+}
+
+#interna .menu .item.ac .nombre{
+	color: #a89056;
+}
+
+#interna .menu .item:active, #interna .menu .item.over{
+	transform:scale(0.9);
+}
+#interna .area{
+	position: relative;
+	height: calc(100% - 84px);
+
+	background-color: #fff;
+	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	background-size: auto 530px;
+	background-repeat: no-repeat;
+	background-position: -160px bottom;
+
+}
+#interna .area.dato{
+	background-position: -100px bottom;
+}
+#interna .area.hidebg{
+	background: #fff;
+}
+#interna .area .sub{
+	display: none;
+	height: 100%;
+	
+}
+
+#interna .area .sub .bloque{
+	padding-left: 510px;
+	padding-top: 180px;
+	padding-right: 135px;
+}
+#interna .area .sub .bloque h1{
+	margin: 0;
+	padding: 0;
+	font-size: 62px;
+	padding-bottom: 20px;
+}
+#interna .area .sub .bloque .subtitulo{
+	font-family: 'PlayfairDisplay-BoldItalic';
+	color: #b19156;
+	font-size: 26px;
+	padding: 15px 0;
+}

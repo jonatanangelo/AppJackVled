@@ -1,0 +1,65 @@
+#edad{
+	width: 1024px;
+    height: 768px;
+    margin: 0px auto;
+    position: relative;
+	background-color: #fbf9f0;
+	display: block;
+}
+#edad{
+	background-image: url(../img/conejo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#edad .pregunta{
+	font-family: 'playfair_displaybold';
+	font-size: 37px;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 30px;
+	width: 585px;
+	padding-top: 220px;
+}
+#edad .pregunta span{
+	font-size: 75px;
+	color: #b39152;
+}
+#edad .pregunta strong{
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 100px;
+	font-family: 'playfair_displaybold';
+}
+#edad .opciones{
+	display: table;
+	margin-left:100px;
+	margin-top: 52px;
+}
+#edad .opciones .bt{
+	border:solid 1px #b39152;
+	width: 113px;
+	height: 79px;
+	line-height: 79px;
+	text-align: center;
+	font-family: 'playfair_displaybold';
+	float: left;
+	margin: 0px 49px;
+	font-size: 45px;
+}
+#edad .opciones .bt:active, #edad .opciones .bt.over{
+	background:rgba(179,145,82,0.7);
+}
+#edad .preg{
+	display: block;
+}
+#edad .menor{
+	display: none;
+	text-align: center;
+	font-family: 'playfair_displaybold';
+	width: 600px;
+	height: 100%;
+	font-size: 34px;
+}
+#edad .menor span{
+	color: #b39152;
+}

@@ -1,0 +1,32 @@
+#contacto{
+	background:#fff;
+	background-image: url(../img/contacto_mapa.jpg);
+	background-size: 100% auto;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#contacto h1{
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 65px;
+	padding-top: 50px;
+}
+#contacto h1 strong{
+	font-weight: normal;
+	color: #b39152;
+}
+#contacto .dir{
+	font-family: 'OpenSans-BoldItalic';
+	font-size: 22px;
+	padding-top: 10px;
+}
+#contacto .tel{
+	font-size: 20px;
+	line-height: 40px;
+}
+#contacto .mail{
+	font-family: 'OpenSans-BoldItalic';
+	font-size: 22px;
+}

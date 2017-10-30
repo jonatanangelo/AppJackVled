@@ -1,0 +1,16 @@
+#interna .area .sub#dato{
+	
+}
+#dato .nombreagua{
+	font-family: 'playfair_displaybold';
+	font-size: 155px;
+	color: rgba(0,0,0,0.06);
+	letter-spacing: 10px;
+	position: absolute;
+	transform:rotate(90deg);
+	width: 586px;
+	text-align: center;
+	transform-origin: left;
+	margin-left: 50px;
+	margin-top: -70px;
+}

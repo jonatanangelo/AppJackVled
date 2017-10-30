@@ -1,0 +1,21 @@
+#interna .area .sub#probar{
+	
+	
+}
+#interna .area .sub#probar .bloque{
+	padding-left: 510px;
+	padding-top: 85px;
+	padding-right: 135px;
+}
+#probar .botella1{
+	position: absolute;
+	z-index: 10;
+	width: 470px;
+	height: auto;
+}
+#probar .botella2{
+	position: absolute;
+	z-index: 9;
+	width: 470px;
+	height: auto;
+}

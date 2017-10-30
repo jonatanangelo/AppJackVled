@@ -1,0 +1,51 @@
+#menu{
+	display: none;
+	position: fixed;
+	z-index: 300;
+	background-color: rgba(0,0,0,0);
+	transition:background-color 0.2s;
+}
+#menu .item{
+	height: 25%;
+}
+#menu .item .ico{
+	width: 46px;
+	height: 32px;
+	margin: auto;
+	background-size: 46px auto;
+}
+#menu .item:active .ico, #menu .item.over .ico{
+	background-position: 0px -32px;
+}
+#menu .item.about .ico{
+	background-image: url(../img/menu_ico1.png);
+}
+#menu .item.cervezas .ico{
+	background-image: url(../img/menu_ico2.png);
+}
+#menu .item.maestro .ico{
+	background-image: url(../img/menu_ico3.png);
+}
+#menu .item.contacto .ico{
+	background-image: url(../img/menu_ico4.png);
+}
+#menu .item .nombre{
+	text-align: center;
+	color: #fff;
+	font-family: 'playfair_displaybold';
+	font-size: 34px;
+	line-height: 70px;
+}
+#menu .item:active .nombre, #menu .item.over .nombre{
+	color: #a89056;
+}
+#menu .item .sep{
+	margin: auto;
+	height: 2px;
+	background: #fff;
+	width: 45px;
+	height: 1px;
+}
+#menu .item:active .sep, #menu .item.over .sep{
+	background-color: #a89056;
+}

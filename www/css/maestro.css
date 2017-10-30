@@ -1,0 +1,8 @@
+#maestro{
+	
+}
+#maestro .foto{
+	background-image: url(../img/maestro_cervecero.jpg);
+	background-size: cover;
+	background-position: center center;
+}

@@ -1,0 +1,52 @@
+#interna .area .sub#maridaje{
+	
+}
+#maridaje .nombreagua{
+	text-align: center;
+	font-family: 'playfair_displaybold';
+	font-size: 130px;
+	line-height: 140px;
+	color: rgba(0,0,0,0.06);
+}
+#maridaje .botella{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 515px;
+	z-index: 10;
+}
+#maridaje .lista{
+	position: absolute;
+	z-index: 12;
+	width: 100%;
+	padding-top: 40px;
+}
+#maridaje .lista .col{
+	width: 180px;
+}
+#maridaje .lista .col.izq{
+	float: left;
+	margin-left: 102px;
+}
+#maridaje .lista .col.der{
+	float: right;
+	margin-right: 102px;
+}
+#maridaje .lista .item{
+	margin-bottom: 30px;
+}
+#maridaje .lista .item img{
+	width: 125px;
+	height: auto;
+	margin:auto;
+}
+#maridaje .lista .item .nom{
+	height: 55px;
+	text-align: center;
+	font-family: 'playfair_displayregular';
+	font-style: italic;
+	font-size: 18px;
+}

@@ -1,0 +1,33 @@
+#portada{
+	overflow: hidden;
+	z-index:200;
+}
+#portada .item{
+	width: calc(100% / 3);
+	height: 100%;
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+#portada .item.about{
+	background-image: url(../img/menu_bgactivo1.jpg);
+}
+#portada .item.cervezas{
+	background-image: url(../img/menu_bgactivo2.jpg);
+}
+#portada .item.maestro{
+	background-image: url(../img/menu_bgactivo3.jpg);
+}
+#portada .cuadro{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.63);
+	transition:all 0.3s;
+}
+#portada .cuadro .nombre{
+	width: 100%;
+	height: 100%;
+}
+#portada .item:active .cuadro, #portada .item.over .cuadro{
+	background-color: rgba(0,0,0,0.3);
+}

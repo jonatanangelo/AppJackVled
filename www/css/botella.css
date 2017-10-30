@@ -1,0 +1,201 @@
+#interna .area .sub#botella{
+	
+}
+#botella .nombreagua{
+	font-family: 'playfair_displaybold';
+	font-size: 137px;
+	line-height: 586px;
+	color: rgba(0,0,0,0.06);
+	
+	position: absolute;
+	
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	
+}
+
+#botella .tour{
+	display: table;
+	margin: auto;
+	padding-top: 45px;
+	position: absolute;
+	left:50%;
+	margin-left: -395px;
+	z-index: 11;
+}
+#botella .botella{
+	height: 513px;
+	margin: auto;
+
+}
+#botella .lista{
+	position: absolute;
+}
+#botella .lista .item{
+	position: absolute;
+}
+#botella .lista .item .num{
+	width: 24px;
+	height: 24px;
+	border: solid 1px #a89056;
+	background: #fff;
+	color: #000;
+	font-family: 'playfair_displayregular';
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 13px;
+	z-index: 20;
+}
+#botella .lista .item.der .num{
+	margin-left: auto;
+}
+#botella .lista .item .num:active, #botella .lista .item .num.over{
+	background-color: #a89056;
+}
+
+#botella .lista .item{
+	width: 116px;
+	background-size: 90px auto;
+	background-repeat: no-repeat;
+}
+
+#botella .lista .item.izq{
+	background-image: url(../img/linea_izq.png);
+	background-position: center right;
+}
+
+#botella .lista .item.der{
+	background-image: url(../img/linea_der.png);
+	background-position: center left;
+}
+
+#botella .popup{
+	position: absolute;
+	width: 919px;
+	height: 513px;
+	left:53px;
+	top: 42px;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	z-index: 30;
+	background: #fff;
+	display: none;
+}
+#botella .popup .cerrar{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	top: -19px;
+	background-color: #000;
+	border-radius: 19px;
+	border:solid 2px #a89056;
+	right: -19px;
+	background-image: url(../img/x.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 14px auto;
+}
+#botella .popup .cerrar:active,#botella .popup .cerrar.over{
+	transform:scale(0.8);
+}
+#botella .popup .punto{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+#botella .popup .punto.ingredientes{
+	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	background-size: auto 475px;
+	background-repeat: no-repeat;
+	background-position: -120px 30px;
+}
+#botella .popup .punto .contenido{
+	width: 328px;
+	float: right;
+	margin-right: 82px;
+	padding-top: 75px;
+}
+#botella .popup .punto .contenido h1{
+	font-size: 55px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+#botella .popup .punto .contenido .subtitulo{
+	font-family: 'PlayfairDisplay-BoldItalic';
+	color: #b19156;
+	font-size: 23px;
+	line-height: 64px;
+}
+
+#botella .popup .punto.tipo{
+	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	background-size: auto 475px;
+	background-repeat: no-repeat;
+	background-position: -120px 30px;
+}
+#botella .popup .punto.tipo .nom{
+	font-family: 'OpenSans-Bold';
+	font-size: 19px;
+}
+#botella .popup .punto.personaje{
+	
+}
+
+#botella .popup .punto .foto{
+	float: left;
+
+}
+#botella .popup .punto .foto img{
+	width: 369px;
+	height: 402px;
+	padding: 10px;
+	border: solid 1px #b19156;
+	margin-left: 74px;
+	margin-top: 44px;
+}
+
+#botella .popup .punto.perfil{
+	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	background-size: auto 475px;
+	background-repeat: no-repeat;
+	background-position: -120px 30px;
+}
+#botella .popup .punto.perfil table{
+	width: 100%;
+	border: none;
+}
+#botella .popup .punto.perfil table td{
+	background-image: url(../img/check_open.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 45px;
+	width: 50px;
+	background-size: 25px 25px;
+}
+#botella .popup .punto.perfil table td.check{
+	background-image: url(../img/check_close.jpg);
+}
+#botella .popup .punto.perfil table th{
+	font-family: 'OpenSans-Light';
+	text-align: left;
+	width: 90px;
+}
+
+#botella .popup .punto.alcohol{
+	
+}
+#botella .popup .punto.alcohol .txt strong{
+	font-family: 'OpenSans-BoldItalic';
+	font-size: 30px;
+}
+#botella .popup .punto.temperatura{
+	
+}
+#botella .popup .punto.temperatura .txt p{
+	font-size: 30px;
+}
+#botella .popup .punto.temperatura .txt strong{
+	font-family: 'OpenSans-BoldItalic';
+}
