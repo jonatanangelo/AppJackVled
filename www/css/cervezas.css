@@ -1,5 +1,6 @@
 #cervezas{
 	background: #fff;
+	overflow: hidden;
 }
 #cervezas .slider{
 	width: calc(1024px * 4);
