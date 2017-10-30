@@ -16,6 +16,10 @@ var Cervezas = function(){
 	$('#slider').slick({
 	  centerMode: false,
 	  centerPadding: '0px',
+	  swipeToSlide:true,
+	 // draggable:false,
+	  //edgeFriction:5,
+	 
 	  slidesToShow: 3,
 	 
 	     

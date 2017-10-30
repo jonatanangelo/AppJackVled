@@ -16,6 +16,7 @@
 html{
     height: 100%;
     padding: 0px;
+    overflow: hidden;
     margin: 0px;
 }
 body{
@@ -105,6 +106,7 @@ img{
   right: 0;
   margin-right: -49px;
   transition:transform 1s;
+  display: none;
 }
 h1{
   font-family: 'playfair_displaybold';
