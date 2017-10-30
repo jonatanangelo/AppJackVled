@@ -42,7 +42,7 @@
 	background: #fff;
 	color: #000;
 	font-family: 'playfair_displayregular';
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 20px;
 	text-align: center;
 	border-radius: 13px;
@@ -105,7 +105,7 @@
 	height: 100%;
 }
 #botella .popup .punto.ingredientes{
-	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	
 	background-size: auto 475px;
 	background-repeat: no-repeat;
 	background-position: -120px 30px;
@@ -130,7 +130,7 @@
 }
 
 #botella .popup .punto.tipo{
-	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	
 	background-size: auto 475px;
 	background-repeat: no-repeat;
 	background-position: -120px 30px;
@@ -157,7 +157,7 @@
 }
 
 #botella .popup .punto.perfil{
-	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	
 	background-size: auto 475px;
 	background-repeat: no-repeat;
 	background-position: -120px 30px;

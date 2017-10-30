@@ -24,10 +24,11 @@ var Cervezas = function(){
 		$("#cervezas").show();
 	}
 
-	this.abrir = function(){
-		$("#cervezas").hide();
-		$("#interna").show();
-		$("#interna").load("cerveza_jackvled.html");
+	this.abrir = function(alias){
+		//$("#cervezas").hide();
+		
+		
+		interna.mostrar(alias);
 	}
 
 }

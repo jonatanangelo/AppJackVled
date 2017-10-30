@@ -7,7 +7,9 @@ var menu,
     portada,
     about,
     maestro,
-    cervezas;
+    cervezas,
+    interna,
+    contacto;
 
 var app = {
     // Application Constructor
@@ -40,7 +42,8 @@ function iniciar(){
    about = new About();
    maestro = new Maestro();
    cervezas = new Cervezas();
-
+   interna = new Interna();
+   contacto = new Contacto();
 
    new Boton($("#navbar .btmenu"),function(bt){
         if(bt.hasClass("open")){

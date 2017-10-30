@@ -56,11 +56,24 @@
 	height: calc(100% - 84px);
 
 	background-color: #fff;
-	background-image: url(../img/cervezas/jackvled/cerveza.png);
+	
 	background-size: auto 530px;
 	background-repeat: no-repeat;
 	background-position: -160px bottom;
+	transition:background-position 0.5s;
 
+}
+#interna .area.jackvled{
+	background-image: url(../img/cervezas/jackvled/cerveza.png);
+}
+#interna .area.gomes{
+	background-image: url(../img/cervezas/gomes/cerveza.png);
+}
+#interna .area.ooul{
+	background-image: url(../img/cervezas/ooul/cerveza.png);
+}
+#interna .area.kantor{
+	background-image: url(../img/cervezas/kantor/cerveza.png);
 }
 #interna .area.dato{
 	background-position: -100px bottom;
